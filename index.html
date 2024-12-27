@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My PortFolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles/styles.css">
 </head>
 <body>
-    <header>
-        <div class="main-header">
-            <h1>Bienvenido a mi portFolio</h1>
-            <h2>Realizado por Francisco Coves García</h2>
-        </div>
-        <aside class="side-nav">
-            <nav>
-                <ul>
-                    <li>Sobre mí</li>
-                    <li>Proyectos</li>
-                    <li>Contacto</li>
-                </ul>
-            </nav>
-        </aside>     
-    </header>
-    <script src="script.js"></script>
+    <main>
+        <header id="main-header">
+            <div id="header">
+                <h1>portFolio</h1>
+                <h2>Francisco Coves García</h2>
+            </div>
+        </header>
+        <section id="main-sobremi">
+            <h1>Sobre mí</h1>
+        </section>
+        <section id="main-proyectos">
+            <h1>Proyectos</h1>
+        </section>
+        <section id="main-contacto">
+            <h1>Contactos</h1>
+        </section>
+    </main>
+    <aside class="side-nav">
+        <nav>
+            <ul>
+                <li class="menu-item active" id="inicio">Inicio</li>
+                <li class="menu-item" id="sobremi">Sobre mí</li>
+                <li class="menu-item" id="proyectos">Proyectos</li>
+                <li class="menu-item" id="contacto">Contacto</li>
+            </ul>
+        </nav>
+    </aside>
+    <audio id="page-sound" src="sounds/pagesound.wav" preload="auto"></audio>
+    <script src="/js/script.js"></script>
 </body>
 </html>
