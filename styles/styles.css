@@ -77,7 +77,7 @@ body{
     transform: scale(1.1) translateX(1rem);
 }
 
-.side-nav nav ul li.active {
+.side-nav li.active {
     transform: scale(1.5) translateX(2.5rem);  
     color: #D8D83D;
 }
@@ -92,7 +92,6 @@ main section{
     width: 100vw;
     color: #D8D83D;
     transition: transform 1s ease-in-out;
-    visibility: visible;
     outline: 2px solid whitesmoke;
 }
 

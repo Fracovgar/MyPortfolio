@@ -37,15 +37,12 @@ function moverPagina(targetIndex) {
 
         if (offset < 0) {
             seccion.style.transform = `translateX(102%)`;
-        } 
-
-        else if (offset === 0) {
-            seccion.style.transform = "translateX(0)";
-        } 
-
-        else {
+        } else {
             seccion.style.transform = "translateX(0)";
         }
+
+        // Le pongo sombra a la animacion
+        seccion.style.boxShadow = "-10px 0 10px rgba(0, 0, 0, 0.2)";
     });
 
     currentIndex = targetIndex;
@@ -54,4 +51,4 @@ function moverPagina(targetIndex) {
 function activarMenu(targetIndex) {
     menuItems.forEach(item => item.classList.remove("active"));
     menuItems[targetIndex].classList.add("active");
-}
+}º
