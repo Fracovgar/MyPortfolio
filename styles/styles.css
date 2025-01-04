@@ -86,7 +86,6 @@ main section{
     position: absolute;
     top:0;
     left:0;
-    align-content: center;
     text-align: center;
     height: 100vh;
     width: 100vw;
@@ -108,4 +107,136 @@ main section{
 #main-contacto {
     z-index: 1;
     background-color: #1E3032;
+}
+
+.sobremi{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 5rem;
+    max-width: 90%;
+}
+
+.container-imagen img{
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+    border: 1px solid white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sobremi img:hover{
+    transform: scale(1.1);
+}
+
+#main-sobremi h1{
+    padding: 1rem;
+    text-transform: uppercase;
+    margin: 5rem 0rem;
+    color: #D8D83D;
+    font-size: 2.1rem;
+}
+
+#main-sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container-descripcion {
+    text-align: left;
+    max-width: 500px;
+}
+
+.container-descripcion h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.container-descripcion p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.descargar-cv{
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 500px;
+}
+
+.descargar-cv h3{
+    text-transform: uppercase;
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    color: #D8D83D;
+}
+
+.cv-options {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.option label {
+    font-size: 1.4rem;
+    color: whitesmoke;
+    cursor:pointer;
+}
+
+.option button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.option button:hover {
+    transform: scale(1.2);
+}
+
+.option img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+.enlaces button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.enlaces-options{
+    display: flex;
+    gap: 2rem;
+}
+
+.enlaces img{
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: contain;
+}
+
+.otros-enlaces h3{
+    color: #D8D83D;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.enlaces button:hover {
+    transform: scale(1.2);
 }
