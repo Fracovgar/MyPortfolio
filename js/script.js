@@ -58,7 +58,7 @@ function moverPagina(targetIndex) {
         }
 
         // Le pongo sombra a la animacion
-        seccion.style.boxShadow = "-10px 0 10px rgba(0, 0, 0, 0.2)";
+        seccion.style.boxShadow = "-30px 0 10px rgba(0, 0, 0, 0.2)";
     });
 
     currentIndex = targetIndex;

@@ -169,8 +169,8 @@ main section{
 
 .descargar-cv h3{
     text-transform: uppercase;
-    margin: 2rem 0rem;
-    font-size: 1.5rem;
+    margin: 1rem 0rem;
+    font-size: 2rem;
     color: #D8D83D;
 }
 
@@ -207,7 +207,36 @@ main section{
 }
 
 .option img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+
+.enlaces button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.enlaces-options{
+    display: flex;
+    gap: 2rem;
+}
+
+.enlaces img{
     width: 3.5rem;
     height: 3.5rem;
     object-fit: contain;
+}
+
+.otros-enlaces h3{
+    color: #D8D83D;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.enlaces button:hover {
+    transform: scale(1.2);
 }
